@@ -1,0 +1,94 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    
+    
+}
+.wrapper{
+    
+    height: 100vh;
+    overflow-x: hidden;
+    
+    perspective: 10px;
+    
+
+}
+.container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100%;
+    
+    transform-style: preserve-3d;
+    z-index: -1;
+    perspective: 10px;
+    position: relative
+}
+.background{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    
+    transform-style: preserve-3d;
+    transform: translateZ(-20px);
+    scale: 5;
+    object-fit: cover;
+}
+
+.foreground{
+    
+    position: absolute;
+    transform-style: preserve-3d;
+    transform: translateZ(-10px);
+    scale: 3;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    
+    
+}
+h1{
+    position: absolute;
+    color: white;
+    text-shadow: 2px gray;
+    top: 9rem;
+    font-size: 100px;
+    letter-spacing: 2px;
+    
+    
+    
+}
+section{
+    background-color: grey;
+    padding: 5rem 0;
+    position: relative;
+    
+}
+
+
+.bg1{
+background-image:url(sport-1.jpg);
+background-attachment: fixed;
+}
+
+.bg2{
+    background-image:url(sport-2.jpg);
+    background-attachment: fixed;
+
+}
+
+.bg3{
+    background-image:url(sport-3.jpg);
+
+}
+h2{
+    
+    
+    
+}
+.secheading{
+    font-size:  5rem;
+    padding: 0 10;
+}
+
